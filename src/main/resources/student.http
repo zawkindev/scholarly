@@ -1,0 +1,21 @@
+### Create Student
+POST localhost:8080/student
+Content-Type: application/json
+
+{
+  "name": "Asuna",
+  "surname": "Yuuki",
+  "age": 18
+}
+
+# update
+PUT localhost:8080/student
+{
+  "id": 2,
+  "name": "Asuna",
+  "surname": "Yuuki",
+  "age": 18
+}
+
+# get all
+GET localhost:8080/student
